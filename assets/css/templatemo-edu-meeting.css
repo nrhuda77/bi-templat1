@@ -1281,16 +1281,20 @@ section.our-facts h2 {
   margin: 15px 0px;
 }
 
-.percentage .count-digit:after {
-  content: '%';
-  margin-left: 3px;
-}
+
 
 .count-digit {
     margin: 5px 0px;
     color: #f5a425;
     font-weight: 700;
     font-size: 36px;
+}
+
+.count-digits {
+  margin: 5px 0px;
+  color: #f5a425;
+  font-weight: 700;
+  font-size: 36px;
 }
 .count-title {
     font-size: 18px;
@@ -1479,9 +1483,9 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://repack.id/wp-content/uploads/2023/03/Ide-Bisnis-Kreatif-di-Luar-Negeri.jpg);
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 110px;
